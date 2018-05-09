@@ -26,6 +26,8 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'devise'
 gem 'will_paginate'
+gem 'pry'
+gem 'pry-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
