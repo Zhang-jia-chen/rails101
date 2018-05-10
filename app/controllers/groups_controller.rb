@@ -29,7 +29,7 @@ class GroupsController < ApplicationController
   end
 
   def index
-    @groups = Group.paginate(:page => params[:page], :per_page=> 5)
+    @groups = Group.paginate(:page => params[:page], :per_page=> 5).recent
   end
 
   def new
