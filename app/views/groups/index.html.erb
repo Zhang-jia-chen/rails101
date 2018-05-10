@@ -13,7 +13,11 @@
         </thead>
 
         <tbody>
-          <%= render :partial => "group_item", :collection => @groups, :as =>:group %>
+          <%= render :partial => "group_item" %>
         </tbody>
     </table>
+    
+    <div class="text-center">
+    <%= will_paginate @groups %>
+    </div>
 </div>
